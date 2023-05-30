@@ -6,11 +6,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .name-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -37,4 +41,25 @@ section {
 
 .top-banner {
     margin-bottom: 50px;
+}
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    margin: 5%;
+    padding-left: 20px;
+}
+
+#full-developer {
+    border-left: 7px solid orange;
+}
+
+#baby-developer {
+    border-left: 7px solid blue;
+}
+
+#foot {
+    text-align: center;
+    font-weight: 700;
 }
